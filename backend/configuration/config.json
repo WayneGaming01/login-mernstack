@@ -1,13 +1,12 @@
 {
-  "USERS_FOLDER": "../users",
   "MAIL_CREDENTIALS": {
-    "MAIL_HOST": "smtp.gmail.com",
-    "MAIL_USER": "waynegg21@gmail.com",
-    "MAIL_PASSWORD": "dpshwygttlpxlpnk"
+    "MAIL_HOST": "",
+    "MAIL_USER": "",
+    "MAIL_PASSWORD": ""
   },
-  "SITE_NAME": "Site",
-  "SUPPORT_EMAIL": "waynegg21@gmail.com",
-  "MONGODB_CLUSTER": "mongodb+srv://admin:bBnc2MOzaEKrPJS0@cluster0.du5g8rv.mongodb.net/auth?retryWrites=true&w=majority",
+  "SITE_NAME": "",
+  "SUPPORT_EMAIL": "",
+  "MONGODB_CLUSTER": "",
   "SERVER_URL": "http://localhost",
   "PORT": 3000
 }
