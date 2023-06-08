@@ -1,0 +1,72 @@
+[-] README START:
+
+[?] LOGIN AND USING A JSON VALUE
+
+[?] INSTRUCTIONS FOR SETTING UP THE WEBSITE:
+
+# Download Node.JS and download WinRAR or 7zip
+# Extract and place it everywhere you want
+# After placing your website's folder. Open cmd.exe or Visual Studio's Terminal then run this following commands:
+# 
+# npm install
+# npm run dev
+# 
+# After this, scroll down for another instruction!
+
+# Check config.json for configuration.
+
+[?] END:
+
+[i] DATABASE USED: MongoDB
+
+[?] INSTRUCTION FOR SETTING UP CONFIG.JSON FILE:
+
+# {
+#   "USERS_FOLDER": "../users",
+#   "MAIL_CREDENTIALS": {
+#     "MAIL_HOST": "put your email provider or your own smtp server or what you have e.g. smtp.mycoolwebsite.com",
+#     "MAIL_USER": "put your website's custom email e.g. hello@mycoolwebsite.com",
+#     "MAIL_PASSWORD": "Put your website's custom email password"
+#   },
+#   "SITE_NAME": "Put your gtps name here",
+#   "SUPPORT_EMAIL": "Put your website's custom support email e.g. support@mycoolwebsite.com", // This is used for receiving emails from the website
+#   "MONGODB_CLUSTER": "Put your mongodb cluster, you can get it from https://mongodb.com/",
+#   "SITE_URL": "Put your website's url e.g. http://mycoolwebsite.com",
+#   "PORT": 3000
+# }
+
+# This is just an example and it's just a guide so don't copy it! you can see the config file in ./configuration/config.json!
+
+[?] END:
+
+[?] INSTRUCTIONS FOR CONNECTING A CUSTOM DOMAIN:
+
+# To connect this website you can follow the instructions below I found from ChatGPT(chat.openai.com)! Also if you find much better way to do it, just email: coldset21@gmail.com. So I can change it:>
+
+# To connect a website hosted on your localhost with a custom domain, you can follow these general steps:
+
+# Obtain a custom domain: Purchase a domain from a domain registrar or use an existing domain that you own.
+
+# Set up DNS records: Log in to your domain registrar's website and navigate to the DNS management section. Add an A record or CNAME # record, depending on your setup, to map your custom domain to the IP address of your localhost.
+
+# A Record: If you have a static public IP address for your localhost, you can create an A record that points your domain to that IP # address.
+# CNAME Record: If you don't have a static IP address or your IP address changes frequently, you can create a CNAME record that points # your domain to a dynamic DNS service. This service can keep track of your IP address changes and update the DNS resolution accordingly.
+# Example:
+
+# Type: A
+# Name: Your custom domain e.g. https://mycoolwebsite.com/
+# Value: Your IP:5173
+# TTL: 3600(1 hour) or 86400(24 hours)
+# Configure your local server:
+
+# Ensure your local server is listening on the desired port (the same port you specified in the DNS records).
+# Set up your server application to respond to requests with the custom domain name. Most web frameworks allow you to configure the # domain or hostname your application listens to.
+# Test the setup:
+
+# Wait for DNS propagation to complete (it may take some time, usually a few minutes to a few hours).
+# Open a web browser and navigate to your custom domain (e.g., http://www.yourdomain.com). If everything is set up correctly, your # localhost website should now be accessible via the custom domain.
+# Please note that exposing a localhost server to the internet carries security risks. Ensure you have taken necessary security measures, # such as implementing strong authentication, setting up SSL/TLS encryption, and applying other best practices to protect your server and # the data transmitted over the network.
+
+[?] END:
+
+[-] README END:

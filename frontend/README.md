@@ -1,0 +1,9 @@
+[!] README: START
+
+[-] CONFIG.JSON >>>
+# {
+#    "SERVER_URL": "http://localhost", //Put the backend's url
+#    "PORT": 3000 //Put the backend's port if necessary
+# }
+
+[!] README: END

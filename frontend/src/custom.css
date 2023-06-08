@@ -1,0 +1,11 @@
+body {
+  font-family: "Ubuntu";
+}
+
+@media screen and (max-width: 640px) {
+  .justified-p-text {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem; 
+  }
+}
+
