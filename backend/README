@@ -22,7 +22,6 @@
 [?] INSTRUCTION FOR SETTING UP CONFIG.JSON FILE:
 
 # {
-#   "USERS_FOLDER": "../users",
 #   "MAIL_CREDENTIALS": {
 #     "MAIL_HOST": "put your email provider or your own smtp server or what you have e.g. smtp.mycoolwebsite.com",
 #     "MAIL_USER": "put your website's custom email e.g. hello@mycoolwebsite.com",
